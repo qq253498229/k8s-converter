@@ -10,3 +10,6 @@ k8s.gcr.io/etcd-amd64                      3.2.18
 k8s.gcr.io/pause                           3.1        
 
 k8s.gcr.io/kubernetes-dashboard-amd64      v1.8.3
+
+
+gcr.io/heptio-images/sonobuoy              v0.11.4
