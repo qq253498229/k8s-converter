@@ -1,0 +1,1 @@
+FROM k8s.gcr.io/nginx-slim-amd64:0.20
