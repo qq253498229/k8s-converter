@@ -23,3 +23,8 @@ docker rmi codeforfun/flannel:v0.10.0-amd64
 docker pull codeforfun/pause:3.1
 docker tag codeforfun/pause:3.1 k8s.gcr.io/pause:3.1
 docker rmi codeforfun/pause:3.1
+
+# ingress addons
+docker pull codeforfun/defaultbackend:1.4
+docker tag codeforfun/defaultbackend:1.4 gcr.io/google_containers/defaultbackend:1.4
+docker rmi codeforfun/defaultbackend:1.4
