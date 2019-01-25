@@ -2,7 +2,6 @@
 
 
 gcr.io/kubernetes-helm/tiller                                    v2.12.3      
-registry.cn-qingdao.aliyuncs.com/wangdali/tiller                 v2.12.3      
 k8s.gcr.io/kube-apiserver                                        v1.13.2      
 k8s.gcr.io/kube-controller-manager                               v1.13.2      
 k8s.gcr.io/kube-proxy                                            v1.13.2      
