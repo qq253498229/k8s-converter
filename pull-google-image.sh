@@ -35,8 +35,3 @@ docker rmi registry.cn-qingdao.aliyuncs.com/wangdali/pause:3.1
 docker pull registry.cn-qingdao.aliyuncs.com/wangdali/defaultbackend:1.4
 docker tag registry.cn-qingdao.aliyuncs.com/wangdali/defaultbackend:1.4 k8s.gcr.io/defaultbackend:1.4
 docker rmi registry.cn-qingdao.aliyuncs.com/wangdali/defaultbackend:1.4
-
-# ingress addons
-docker pull codeforfun/defaultbackend:1.4
-docker tag codeforfun/defaultbackend:1.4 gcr.io/google_containers/defaultbackend:1.4
-docker rmi codeforfun/defaultbackend:1.4
